@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#162238"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="48" y="48" width="704" height="504" rx="28" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.7"/>
+  <circle cx="400" cy="230" r="120" fill="url(#accent)" opacity="0.16"/>
+  <circle cx="400" cy="230" r="84" fill="url(#accent)" opacity="0.1"/>
+  <text x="400" y="300" text-anchor="middle" fill="#F1F5F9" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Amanawit Design</text>
+  <text x="400" y="348" text-anchor="middle" fill="#A8B3C7" font-family="Segoe UI, Arial, sans-serif" font-size="18">Web Development · Graphic Design</text>
+  <rect x="270" y="400" width="260" height="52" rx="26" fill="#111C2F" stroke="#28364D"/>
+  <text x="400" y="432" text-anchor="middle" fill="#22D3EE" font-family="Segoe UI, Arial, sans-serif" font-size="16">Placeholder screenshot</text>
+  <text x="400" y="500" text-anchor="middle" fill="#A8B3C7" font-family="Segoe UI, Arial, sans-serif" font-size="13">Replace this file with a real project screenshot</text>
+</svg>

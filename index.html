@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sara Feleke — Computer Science graduate, website developer, and graphics designer. Explore responsive web projects, skills, and creative work." />
+  <meta name="author" content="Sara Feleke" />
+  <meta name="theme-color" content="#0B1220" />
+
+  <meta property="og:title" content="Sara Feleke — Web Developer & Graphics Designer" />
+  <meta property="og:description" content="Portfolio of Sara Feleke: responsive web development, full-stack projects, and graphic design." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/sara-profile.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title>Sara Feleke — Web Developer & Graphics Designer</title>
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a href="#home" class="nav-brand" aria-label="Sara Feleke home">
+        <span class="brand-mark">SF</span>
+        <span class="brand-text">Sara Feleke</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#experience">Experience</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section id="home" class="hero section reveal">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Website Developer · Graphics Designer</p>
+          <h1>Building Digital Experiences Through <span class="text-gradient">Code &amp; Creativity.</span></h1>
+          <p class="hero-lead">
+            I'm Sara Feleke, a Computer Science graduate, website developer, and graphics designer passionate about
+            building responsive web experiences, developing practical digital solutions, and creating compelling visual designs.
+          </p>
+          <p class="hero-credential">BSc Computer Science · CGPA 3.92 · Great Distinction</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Explore My Work</a>
+            <a href="#contact" class="btn btn-ghost">Let's Connect</a>
+          </div>
+          <div class="hero-meta" aria-hidden="true">
+            <span class="pulse-dot"></span>
+            <span>Available for  roles, freelance projects, and creative collaborations</span>
+          </div>
+        </div>
+
+        <div class="hero-portrait" aria-hidden="false">
+          <div class="portrait-frame">
+            <img src="assets/images/sara-profile.jpg" alt="Portrait of Sara Feleke" width="420" height="520" />
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#about" aria-label="Scroll to About section">
+        <span>Scroll</span>
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5v14m0 0 6-6m-6 6-6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-alt reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Profile</span>
+          <h2>About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-media">
+            <div class="about-image">
+              <img src="assets/images/sara-profile.jpg" alt="Secondary portrait of Sara Feleke" loading="lazy" width="520" height="620" />
+            </div>
+            <div class="credential-card">
+              <span class="credential-icon" aria-hidden="true">★</span>
+              <div>
+                <strong>Great Distinction</strong>
+                <p>Graduated with a CGPA of 3.92 in Computer Science.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <p class="lead">
+              I'm a motivated Website Developer and Graphics Designer with hands-on experience in HTML, CSS, JavaScript,
+              Bootstrap, Python, Django, and MySQL. I graduated with a BSc in Computer Science in 2025 with a CGPA of 3.92
+              and Great Distinction.
+            </p>
+            <p>
+              I have experience developing responsive websites, creating visual designs, and building digital solutions that
+              help businesses strengthen their online presence. I enjoy combining technical problem-solving with creativity
+              to build useful, accessible, and visually engaging experiences.
+            </p>
+            <p>
+              I care about clean code, responsive layouts, practical software solutions, and continuous learning — the kind
+              of habits that turn good ideas into reliable products.
+            </p>
+
+            <div class="highlight-grid" aria-label="Credential highlights">
+              <span>Computer Science Graduate</span>
+              <span>CGPA 3.92</span>
+              <span>Great Distinction</span>
+              <span>Website Developer</span>
+              <span>Graphics Designer</span>
+            </div>
+
+            <div class="language-block">
+              <h3>Languages</h3>
+              <div class="language-tags">
+                <span class="tag tag-strong">Amharic — Native</span>
+                <span class="tag">English — Excellent / Fluent</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Capabilities</span>
+          <h2>Skills &amp; Technologies</h2>
+          <p class="section-sub">A practical toolkit for building responsive websites, full-stack features, and visual identities.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>Front-End Development</h3>
+            <ul class="chip-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript ES6+</li>
+              <li>Bootstrap 5</li>
+              <li>Responsive Web Design</li>
+              <li>DOM Manipulation</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Back-End Development</h3>
+            <ul class="chip-list">
+              <li>Python</li>
+              <li>Django 4.2</li>
+              <li>Django ORM</li>
+              <li>Django Admin</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Programming Languages</h3>
+            <ul class="chip-list">
+              <li>Python</li>
+              <li>Java</li>
+              <li>C++</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Databases</h3>
+            <ul class="chip-list">
+              <li>MySQL</li>
+              <li>SQLite</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Graphics &amp; Design</h3>
+            <ul class="chip-list">
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
+              <li>Graphic Design</li>
+              <li>Visual Design</li>
+              <li>Brand &amp; Social Media Graphics</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Tools &amp; Other Skills</h3>
+            <ul class="chip-list">
+              <li>GitHub</li>
+              <li>Visual Studio Code</li>
+              <li>Technical Documentation</li>
+              <li>Problem Solving</li>
+              <li>Communication</li>
+              <li>Teamwork</li>
+              <li>Creativity</li>
+              <li>Time Management</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section section-alt reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Work</span>
+          <h2>Professional Experience</h2>
+        </div>
+
+        <article class="experience-card">
+          <div class="experience-marker" aria-hidden="true"></div>
+          <div class="experience-body">
+            <span class="experience-role">Web Developer</span>
+            <p class="experience-summary">
+              Developed responsive websites using HTML, CSS, JavaScript, Bootstrap, and Django. Created professional logos,
+              social media graphics, and marketing materials. Collaborated with clients to understand their requirements and
+              deliver customized digital solutions that support their business goals.
+            </p>
+            <ul class="experience-list">
+              <li>Developed responsive and user-friendly website interfaces.</li>
+              <li>Worked with backend functionality using Django and Python where applicable.</li>
+              <li>Created logos, promotional graphics, and social media content.</li>
+              <li>Helped translate client requirements into practical digital solutions.</li>
+              <li>Focused on usability, visual consistency, and responsive layouts.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Selected Work</span>
+          <h2>Featured Projects</h2>
+          <p class="section-sub">A mix of responsive websites, full-stack builds, and brand-focused design work.</p>
+        </div>
+
+        <div class="filter-bar" role="toolbar" aria-label="Filter projects by category">
+          <button class="filter-btn active" data-filter="all">All Work</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="fullstack">Full-Stack Development</button>
+          <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card reveal" data-category="web graphic" tabindex="0">
+            <div class="project-image">
+              <img src="assets/images/amanawit-design.svg" alt="Placeholder preview for the Amanawit Design website" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3>Amanawit Design</h3>
+                <span class="project-badge">Live</span>
+              </div>
+              <p>
+                A modern website for traditional Ethiopian fashion, showcasing Habesha Kemis and contemporary Ethiopian
+                attire through an elegant digital experience.
+              </p>
+              <div class="tag-list">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Responsive Design</span>
+              </div>
+              <div class="project-links">
+                <a href="https://sarafeleke.github.io/amanawit-design/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal" data-category="web fullstack" tabindex="0">
+            <div class="project-image">
+              <img src="assets/images/yeab-pharmaceuticals.svg" alt="Placeholder preview for the Yeab Pharmaceuticals website" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3>Yeab Pharmaceuticals Website</h3>
+                <span class="project-badge">Live</span>
+              </div>
+              <p>
+                A professional pharmaceutical company website designed to introduce Yeab Pharmaceuticals, present its
+                services and product information, and provide an accessible online presence.
+              </p>
+              <div class="tag-list">
+                <span>Python</span>
+                <span>Django 4.2.7</span>
+                <span>SQLite</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Bootstrap 5</span>
+              </div>
+              <div class="project-links">
+                <a href="https://sarafeleke.github.io/yeab-pharma-website/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal" data-category="web" tabindex="0">
+            <div class="project-image">
+              <img src="assets/images/movie-choice.svg" alt="Placeholder preview for the Movie Choice website" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3>Movie Choice — Discover Movies</h3>
+                <span class="project-badge">Live</span>
+              </div>
+              <p>
+                A movie discovery website that allows users to search for a movie by title and view its release date through
+                a clean, cinematic interface.
+              </p>
+              <div class="tag-list">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://sarafeleke.github.io/movie1/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card reveal" data-category="web fullstack" tabindex="0">
+            <div class="project-image">
+              <img src="assets/images/equb-management.svg" alt="Placeholder preview for the Round Saving Equb Management System" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3>Round Saving — Equb Management System</h3>
+                <span class="project-badge badge-dev">In Development</span>
+              </div>
+              <p>
+                A digital platform concept for organizing and managing an Equb savings group, helping administrators and
+                members manage registration, contributions, receipts, records, and winner selection more efficiently.
+              </p>
+              <div class="tag-list">
+                <span>Python</span>
+                <span>Django</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links project-links-muted">
+                <span class="link-note">Source link will be added when available</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card reveal" data-category="web graphic" tabindex="0">
+            <div class="project-image">
+              <img src="assets/images/hello-coffee.svg" alt="Placeholder preview for the Hello Coffee company profile website" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3>Hello Coffee — Company Profile Website</h3>
+                <span class="project-badge">Live</span>
+              </div>
+              <p>
+                A company profile website designed to introduce Hello Coffee, present its brand identity and offerings,
+                and establish a polished digital presence for the business.
+              </p>
+              <div class="tag-list">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Brand Identity</span>
+              </div>
+              <div class="project-links">
+                <a href="https://www.helloaddiscoffee.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section section-light reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Academic</span>
+          <h2>Education</h2>
+        </div>
+
+        <article class="education-card">
+          <div class="education-main">
+            <span class="education-degree">Bachelor of Science in Computer Science</span>
+            <p class="education-school">American College of Technology</p>
+            <p class="education-date">Graduated August 2025</p>
+          </div>
+          <div class="education-stats">
+            <div class="stat">
+              <strong>3.92</strong>
+              <span>CGPA</span>
+            </div>
+            <div class="stat">
+              <strong>Great</strong>
+              <span>Distinction</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section section-light reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Learning</span>
+          <h2>Certifications &amp; Learning</h2>
+        </div>
+
+        <div class="cert-grid">
+          <article class="cert-card">
+            <div class="cert-icon" aria-hidden="true">✦</div>
+            <h3>Huawei Seeds for the Future Program</h3>
+            <p>Completion Certificate</p>
+          </article>
+          <article class="cert-card">
+            <div class="cert-icon" aria-hidden="true">◐</div>
+            <h3>Graphics Design Certificate</h3>
+            <p>Visual &amp; brand design training</p>
+          </article>
+          <article class="cert-card">
+            <div class="cert-icon" aria-hidden="true">◆</div>
+            <h3>Introduction to Cyber Security</h3>
+            <p>Security fundamentals</p>
+          </article>
+          <article class="cert-card">
+            <div class="cert-icon" aria-hidden="true">●</div>
+            <h3>Python Programming for Beginners</h3>
+            <p>Programming foundations</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Contact</span>
+          <h2>Let's Work Together</h2>
+          <p class="section-sub">Have a project in mind, need a website, or want to collaborate on a creative idea? I'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <a class="contact-item" href="mailto:sara19feleke@gmail.com">
+              <span class="contact-icon" aria-hidden="true">✉</span>
+              <div>
+                <strong>Email</strong>
+                <p>sara19feleke@gmail.com</p>
+              </div>
+            </a>
+
+            <a class="contact-item" href="tel:+251934997510">
+              <span class="contact-icon" aria-hidden="true">☎</span>
+              <div>
+                <strong>Phone</strong>
+                <p>+251 934 997 510</p>
+              </div>
+            </a>
+
+            <a class="contact-item" href="https://linkedin.com/in/sara-feleke" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon" aria-hidden="true">in</span>
+              <div>
+                <strong>LinkedIn</strong>
+                <p>linkedin.com/in/sara-feleke</p>
+              </div>
+            </a>
+
+            <a class="contact-item" href="https://github.com/Sarafeleke" target="_blank" rel="noopener noreferrer">
+              <span class="contact-icon" aria-hidden="true">GH</span>
+              <div>
+                <strong>GitHub</strong>
+                <p>github.com/Sarafeleke</p>
+              </div>
+            </a>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project inquiry, collaboration, or opportunity" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Tell me a little about what you need..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2 class="footer-brand">Sara Feleke</h2>
+        <p>Website Developer &amp; Graphics Designer</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/sara-feleke" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/Sarafeleke" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:sara19feleke@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year">2025</span> Sara Feleke. Designed with creativity. Built with code.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5m0 0-6 6m6-6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

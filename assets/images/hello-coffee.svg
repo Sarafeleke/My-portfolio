@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2B1A12"/>
+      <stop offset="1" stop-color="#111C2F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#C8A97E"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="48" y="48" width="704" height="504" rx="28" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.7"/>
+  <circle cx="400" cy="220" r="120" fill="#C8A97E" opacity="0.18"/>
+  <circle cx="400" cy="220" r="84" fill="#6F4E37" opacity="0.35"/>
+  <path d="M340 180 C340 150, 460 150, 460 180 L460 220 C460 260, 340 260, 340 220 Z" fill="#6F4E37" stroke="#C8A97E" stroke-width="4"/>
+  <path d="M460 190 C510 190, 510 240, 460 240" fill="none" stroke="#C8A97E" stroke-width="6"/>
+  <path d="M360 150 C360 135, 440 135, 440 150" stroke="#C8A97E" stroke-width="4" fill="none" opacity="0.6"/>
+  <text x="400" y="390" text-anchor="middle" fill="#F1F5F9" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Hello Coffee</text>
+  <text x="400" y="432" text-anchor="middle" fill="#A8B3C7" font-family="Segoe UI, Arial, sans-serif" font-size="18">Company Profile · Brand &amp; Web Development</text>
+  <rect x="270" y="480" width="260" height="52" rx="26" fill="#111C2F" stroke="#28364D"/>
+  <text x="400" y="512" text-anchor="middle" fill="#C8A97E" font-family="Segoe UI, Arial, sans-serif" font-size="16">Placeholder screenshot</text>
+</svg>
